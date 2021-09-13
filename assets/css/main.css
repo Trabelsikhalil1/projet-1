@@ -7,7 +7,7 @@
 
 .header-contact{
     height: 36px;
-    width: 102%;
+    width: 100%;
     margin:0;
     background-color: var(--dark-blue);
     color : #fff;
@@ -29,8 +29,9 @@
     align-items: center;
     background-color: var(--dark-blue);
     justify-content: center;
-    gap:7rem;
+    gap:5rem;
 }
+
 .left-contact span{
     display: flex;
     align-items: center;
@@ -48,7 +49,7 @@
     color : #fff
 }
 .black-1 {
-    background-color: #0000004f;
+    background : #00000085;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -57,27 +58,46 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .btn-contact-black {
+    background-color: #9e1e17;
     background: #9e1e17;
     color: #fff !important;
     border: none;
     padding: 1rem;
     font-size: 22px;
     font-weight: 700;
+    transition: 2s;
+
 }
-.title-black-1{
-        color: #fff;
-        font-size: 42px;
-        font-weight: 700;
-        width: 50%;
-        text-align: center;
-        margin-bottom: 2rem;
+.btn-contact-black:hover{
+    background: #6d1611;
+    transition: 2s;
+}
+.title-black-1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    width: 68%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+}
+.sub-title-black-1{
+    color: #fff;
+    margin: 2rem;
+    margin-top: -2rem;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
 }
 .devider {
     background: #fff;
-    width: 100px;
-    height: 4px;
+    width: 80px;
+    height: 2px;
     margin: 1rem;
     margin-bottom: 3rem;
     margin-top: -1rem;
@@ -153,4 +173,16 @@ background: #555;
 
 .single-services {
     height: 100%;
+}
+
+
+.hero-title {
+    width: 68%;
+}
+
+
+@media  (min-width: 1360px)  {
+    .hero-title {
+        width: 60%;
+    }
 }

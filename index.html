@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8" />
@@ -57,6 +57,9 @@
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
       
 
@@ -137,7 +140,7 @@
                                 </ul> <!-- navbar nav -->
                             </div>
                             <div class="navbar-btn ml-20 d-none d-sm-block">
-                                <a class="main-btn" href="#">postulez maintenant</a>
+                                <a class="main-btn" href="formulaire.html">postulez maintenant ! </a>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -148,11 +151,12 @@
         <div class="header-banner d-flex align-items-center">
 
             <div class="black-1">
-                <div class="title-black-1 d-flex">Transformer chaque interaction en opportunité de développement</div>
+              
+                <div class="title-black-1 d-flex hero-title">Nous croyons à la Croissance et à l'Innovation</div>
+                <div class="sub-title-black-1 d-flex">Transformer chaque interaction en opportunité de développement</div>
                 <div class="devider"></div>
-                <a href="#contact"  class="btn-contact-black rounded-pill fw-bolder">Contactez-nous</a>
+                <a href="#contact"  class="btn-contact-black fw-bolder">Contactez-nous</a>
             </div>
-            <div class="banner-image bg_cover" style="background-image: url(assets/images/hero-1.jpg)"></div>
             
             <div class="banner-image bg_cover img-fluid" style="background-image: url(assets/images/hero-1.jpg)"></div>
 
@@ -170,15 +174,15 @@
           <div class="col-lg-6">
             <div class="about-image mt-50 clearfix">
               <div class="single-image float-left">
-                <img src="assets/images/about/about-1.png" alt="About" />
+                <img src="assets/images/about.jpg" alt="About" />
               </div>
               <!-- single image -->
               <div data-aos="fade-right" class="about-btn">
                 <a class="main-btn" href="#"><span>4</span>ans d’expérience</a>
               </div>
-              <div class="single-image image-tow float-right">
-                <img src="assets/images/about/about-2.png" alt="About" />
-              </div>
+              <!-- <div class="single-image image-tow float-right">
+                <img src="assets/images/about/about-1.jpg" alt="About" />
+              </div>-->
               <!-- single image -->
             </div>
             <!-- about image -->
@@ -210,7 +214,6 @@
                 des langues et compétences proposées ou encore par la
                 disponibilité sur des plages horaires étendues.
               </p>
-              <a class="main-btn mt-25" href="#">savoir plus</a>
             </div>
             <!-- about content -->
           </div>
@@ -224,7 +227,7 @@
 
     <!--====== SERVICES PART START ======-->
 
-    <section id="service" class="services-area pt-125 pb-130 gray-bg">
+    <section id="service" class="services-area pt-125 pb-130">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -341,6 +344,14 @@
                 method="post"
                 data-toggle="validator"
               >
+              <input type="hidden" name="_subject" value="New submission!">
+              <input type="hidden" name="_next" value="index.html">
+              <input type="hidden" name="_autoresponse" value="Votre message a été reçu, nous vous contacterons dans les plus brefs délais">
+              <input type="hidden" name="_template" value="table">
+
+
+
+
                 <div class="row">
                   <div class="col-md-6">
                     <div class="single-form form-group">
@@ -456,10 +467,10 @@
 
 
     <footer id="footer" class="footer-area">
-      <div class="footer-widget pt-80 pb-130">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-8">
+      <div class="footer-widget pt-80 pb-130 d-flex justify-content-evenly flex-column  flex-lg-row flex-md-row align-items-start px-5">
+        
+          
+            <div class="">
               <div class="footer-logo mt-50">
                 <a href="#">
                   <img src="assets/images/logo.png" alt="Logo" />
@@ -468,7 +479,7 @@
                   <li>
                     <div class="single-info">
                       <div class="info-icon">
-                        <i class="lni-phone-handset"></i>
+                          <i class="material-icons icon-color">call</i>
                       </div>
                       <div class="info-content">
                         <p>+216 22 33 44 99</p>
@@ -479,7 +490,7 @@
                   <li>
                     <div class="single-info">
                       <div class="info-icon">
-                        <i class="lni-envelope"></i>
+                          <i class="material-icons icon-color">email</i>
                       </div>
                       <div class="info-content">
                         <p>contact@strategiecall.com</p>
@@ -490,7 +501,7 @@
                   <li>
                     <div class="single-info">
                       <div class="info-icon">
-                        <i class="lni-map"></i>
+                          <i class="material-icons icon-color">location_on</i>
                       </div>
                       <div class="info-content">
                         <p>58 ibn charaf alain savary tunis</p>
@@ -503,50 +514,35 @@
               </div>
               <!-- footer logo -->
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="">
               <div class="footer-link mt-45">
                 <div class="f-title">
                   <h4 class="title">Essential Links</h4>
                 </div>
                 <ul class="mt-15">
-                  <li><a href="#">Accueil</a></li>
-                  <li><a href="#">Qui nous sommes</a></li>
-                  <li><a href="#">nos services</a></li>
-                  <li><a href="#">Carriéres</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="/index.html#home">Accueil</a></li>
+                  <li><a href="/index.html#about">Qui nous sommes</a></li>
+                  <li><a href="/index.html#service">nos services</a></li>
+                  <li><a href="/formulaire.html">Carriéres</a></li>
+                  <li><a href="/index.html#contact">Contact</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="">
               <div class="footer-link mt-45">
                 <div class="f-title">
                   <h4 class="title">Nos Services</h4>
                 </div>
                 <ul class="mt-15">
-                  <li><a href="#">Services clients</a></li>
-                  <li><a href="#">Conseil assistance</a></li>
-                  <li><a href="#">Télémarketing</a></li>
+                  <li><a href="/index.html#service">Services clients</a></li>
+                  <li><a href="/index.html#service">Conseil assistance</a></li>
+                  <li><a href="/index.html#service">Télémarketing</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-5 col-sm-8">
-              <div class="footer-newsleter mt-45">
-                <div class="f-title">
-                  <h4 class="title">Envoyer un message</h4>
-                </div>
-                <form action="#">
-                  <div class="newsleter mt-20">
-                    <input type="email" placeholder="info@contact.com" />
-                    <button><i class="lni-angle-double-right"></i></button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
           <!-- row -->
-        </div>
+        
         <!-- container -->
-      </div>
       <!-- footer widget -->
     </footer>
 
