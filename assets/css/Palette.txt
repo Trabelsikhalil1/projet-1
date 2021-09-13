@@ -1,0 +1,36 @@
+/* CSS HEX */
+--mine-shaft: #303030;
+--punch: #dc4324;
+--fuel-yellow: #ecaa2d;
+--pampas: #f7f6f4;
+--dusty-gray: #979797;
+--boulder: #747474;
+--sisal: #dad2c2;
+--marzipan: #f8dc98;
+--tonys-pink: #ecad92;
+
+
+/* SCSS HEX */
+$mine-shaft: #303030;
+$punch: #dc4324;
+$fuel-yellow: #ecaa2d;
+$pampas: #f7f6f4;
+$dusty-gray: #979797;
+$boulder: #747474;
+$sisal: #dad2c2;
+$marzipan: #f8dc98;
+$tonys-pink: #ecad92;
+
+
+/* SCSS RGB */
+--mine-shaft: rgba(48,48,48,1);
+--punch: rgba(220,67,36,1);
+--fuel-yellow: rgba(236,170,45,1);
+--pampas: rgba(247,246,244,1);
+--dusty-gray: rgba(151,151,151,1);
+--boulder: rgba(116,116,116,1);
+--sisal: rgba(218,210,194,1);
+--marzipan: rgba(248,220,152,1);
+--tonys-pink: rgba(236,173,146,1);
+
+
